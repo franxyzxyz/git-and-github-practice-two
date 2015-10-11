@@ -6,5 +6,6 @@
 window.onload = function(){
   document.getElementById("button-yellow").addEventListener("click", function(){
     var email = prompt("Enter Your Email");
+    document.getElementById("button-yellow").innerHTML = "Thanks for your Email";
   })
 }
